@@ -1,3 +1,89 @@
+/* === ESTILOS GENERALES === */
 body {
-  font-family: "Share Tech Mono", monospace;
+  font-family: 'Share Tech Mono', monospace;
+  background-color: #111;
+  color: #f8f9fa;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Títulos generales */
+h1, h2, h5 {
+  color: #00ffcc;
+  text-shadow: 1px 1px 0 #003b3b;
+}
+
+/* === NAVBAR === */
+.navbar {
+  font-weight: bold;
+  border-bottom: 2px dashed #00ffff33;
+}
+
+/* === SECCIONES === */
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.bg-light {
+  background-color: #222 !important;
+  color: #eee;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border-color: #00ffff33;
+  color: #ddd;
+}
+
+/* === IMAGEN PERFIL === */
+#perfil img {
+  border: 3px solid #00ffff;
+  padding: 5px;
+}
+
+/* === PORTAFOLIO === */
+.card {
+  background-color: #1a1a1a;
+  border: 1px solid #00ffff33;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-title a {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #ccc;
+}
+
+/* === FOOTER === */
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #00ffff;
+}
+
+footer i {
+  transition: transform 0.3s;
+}
+
+footer i:hover {
+  transform: scale(1.2);
 }
